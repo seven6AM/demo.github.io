@@ -13,7 +13,7 @@
             list-style: none;
             box-sizing: border-box;
         }
-        
+
         nav {
             display: flex;
             align-items: center;
@@ -51,39 +51,41 @@
 
         .aboutme {
             width: 100vw;
-            margin: 0 auto;
         }
 
         .aboutme .aboutme-list {
-            width: 100%;
-            height: 973px;
+            width: 100vw;
+            height: 900px;
             background-image: url(./images/中秋.jpg);
+            background-size: cover;
             background-repeat: no-repeat;
         }
 
         .aboutme-list-item {
             display: flex;
             flex-direction: column;
-            width: 1806px;
-            overflow: hidden;
+            align-items: center;
+            width: 100%;
         }
 
         .aboutme-list-item p {
-            width: 1806px;
-            margin: 5px 0 5px 0 ;
+            width: 500px;
             text-align: center;
-            overflow: hidden;
+            font-size: 25px;
+            font-weight: 700;
         }
 
         .aboutme-story {
             display: flex;
             width: 100%;
-            border: 1px solid #eee;
+            border-top: 1px solid #eee;
             align-items: center;
+            margin-top: 10px;
         }
-        
+
         .aboutme-story .aboutme-story-headportrait {
-            margin: 10px;
+            margin-top: 10px;
+            margin-left: 10px;
             width: 400px;
             height: 400px;
         }
@@ -94,14 +96,14 @@
         }
 
         .aboutme-story .aboutme-story-text {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
             width: 400px;
             height: 400px;
+            margin-left: 75px;
         }
-
-        .aboutme-story .aboutme-story-text p {
-            margin: 12px 5px 25px 5px;
-        }
-    </style> 
+    </style>
 
 
 </head>
@@ -126,25 +128,39 @@
         </div>
         <!-- 关于我 -->
         <div class="aboutme-list-item">
-                <p>关于我</p>
-                <p>About me</p>
+            <p>关于我</p>
+            <p>About me</p>
         </div>
         <!-- 介绍 -->
         <div class="aboutme-story">
-                <div class="aboutme-story-headportrait">
-                    <img src="./images/头像.jpg" alt="头像">
-                </div>
-                <div class="aboutme-story-text">
-                    <p>姓名：</p>
-                    <p>性别：</p>
-                    <p>位置：</p>
-                    <p>出生年月：</p>
-                    <p>专业：</p>
-                    <p>学校：</p>
-                    <p>星座：</p>
-                    <p>爱好：</p>
-                    <p>特长：</p>
-                </div>    
+            <div class="aboutme-story-headportrait">
+                <img src="./images/头像.jpg" alt="头像">
+            </div>
+            <div class="aboutme-story-text">
+                <p>姓名: jomn</p>
+                <p>性别：男</p>
+                <p>位置：广州</p>
+                <p>出生年月: 2001-09-09</p>
+                <p>专业：前端开发</p>
+                <p>学校：粤嵌</p>
+                <p>星座：金猪座</p>
+                <p>爱好：打游戏</p>
+            </div>
+        </div>
+        <div class="aboutme-story">
+            <div class="aboutme-story-headportrait">
+                <img src="./images/头像2.jpg" alt="头像">
+            </div>
+            <div class="aboutme-story-text">
+                <p>姓名: Jayson</p>
+                <p>性别：男</p>
+                <p>位置：广州</p>
+                <p>出生年月: 2001-09-09</p>
+                <p>专业：前端开发</p>
+                <p>学校：粤嵌</p>
+                <p>星座：摩羯座</p>
+                <p>爱好：听音乐</p>
+            </div>
         </div>
     </div>
 
