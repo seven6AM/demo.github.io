@@ -50,33 +50,57 @@
         }
 
         .aboutme {
-            width: 100vh;
+            width: 100vw;
             margin: 0 auto;
         }
 
         .aboutme .aboutme-list {
             width: 100%;
-            height: 300px;
-        }
-
-        .aboutme .aboutme-list img {
-            width: 100%;
-            height: 100%;
+            height: 973px;
+            background-image: url(./images/中秋.jpg);
+            background-repeat: no-repeat;
         }
 
         .aboutme-list-item {
-            width: 100%;
+            display: flex;
+            flex-direction: column;
+            width: 1806px;
+            overflow: hidden;
         }
 
         .aboutme-list-item p {
+            width: 1806px;
             margin: 5px 0 5px 0 ;
             text-align: center;
+            overflow: hidden;
         }
 
         .aboutme-story {
+            display: flex;
             width: 100%;
+            border: 1px solid #eee;
+            align-items: center;
         }
         
+        .aboutme-story .aboutme-story-headportrait {
+            margin: 10px;
+            width: 400px;
+            height: 400px;
+        }
+
+        .aboutme-story .aboutme-story-headportrait img {
+            width: 400px;
+            height: 400px;
+        }
+
+        .aboutme-story .aboutme-story-text {
+            width: 400px;
+            height: 400px;
+        }
+
+        .aboutme-story .aboutme-story-text p {
+            margin: 12px 5px 25px 5px;
+        }
     </style> 
 
 
@@ -99,7 +123,6 @@
     <div class="aboutme">
         <!-- 头部背景 -->
         <div class="aboutme-list">
-            <img src="./images/中秋.jpg" alt="背景">
         </div>
         <!-- 关于我 -->
         <div class="aboutme-list-item">
@@ -110,6 +133,17 @@
         <div class="aboutme-story">
                 <div class="aboutme-story-headportrait">
                     <img src="./images/头像.jpg" alt="头像">
+                </div>
+                <div class="aboutme-story-text">
+                    <p>姓名：</p>
+                    <p>性别：</p>
+                    <p>位置：</p>
+                    <p>出生年月：</p>
+                    <p>专业：</p>
+                    <p>学校：</p>
+                    <p>星座：</p>
+                    <p>爱好：</p>
+                    <p>特长：</p>
                 </div>    
         </div>
     </div>
